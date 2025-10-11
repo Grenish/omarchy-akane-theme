@@ -101,8 +101,3 @@ To verify color consistency:
 2. Ensure terminal ANSI colors are mapped correctly
 3. Verify selection colors are consistent across terminals
 4. Test syntax highlighting in Neovim with various file types
-
-## Version
-
-Last updated: 2024
-Theme version: 1.0

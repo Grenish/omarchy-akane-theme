@@ -15,7 +15,11 @@ It embodies the balance between stillness and motion, silence and passion — a 
 - **dark-purple** (`#4A2036`) - Subtle backgrounds
 
 ## Installation
-
+### Fast install 
+```bash
+   # Linux/macOS
+   omarchy-theme-install https://github.com/Grenish/omarchy-akane-theme
+   ```
 ### Visual Studio Code
 
 1. Copy the extension to your VSCode extensions folder:

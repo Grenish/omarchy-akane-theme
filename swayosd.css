@@ -1,6 +1,9 @@
-@define-color selected-text #FA7E75;
-@define-color text #F4B999;
-@define-color base #0E1E36;
-@define-color border-color #9279AA;
-@define-color foreground-color #F4B999;
-@define-color background-color #0E1E36;
+@define-color background-color #12101c;
+@define-color border-color #e15a48;
+@define-color label #f0c4a8;
+@define-color image #f0c4a8;
+@define-color progress #f0b45a;
+@define-color selected-text #f7e0cc;
+@define-color text #f0c4a8;
+@define-color base #12101c;
+@define-color foreground-color #f0c4a8;

@@ -1,85 +1,45 @@
 # Akane Theme
 
-_Akane_ (茜) — meaning _"madder red"_ — captures the serene intensity of a world painted in shades of crimson and shadow. Inspired by traditional Japanese aesthetics, this artwork blends calm and chaos: a tranquil temple hidden within fiery autumn woods, under the watchful glow of a red sun.
-It embodies the balance between stillness and motion, silence and passion — a reflection of nature's quiet strength and timeless beauty.
+_Akane_ (茜) — _madder red_. A dusk-navy desktop with vermillion torii,
+maple, and sunset gold, sampled from the bundled wallpapers.
 
-## Color Palette
+Works on **Omarchy Quattro** (`colors.toml`) and on **pre-Quattro**
+installs that still read per-app files (Waybar, Walker, Mako, Hyprlock,
+`hyprland.conf`).
 
-- **oxford-blue** (`#0E1E36`) - Deep blue background
-- **peach** (`#F4B999`) - Warm foreground text
-- **african-violet** (`#9279AA`) - Keywords & highlights
-- **english-violet** (`#574F72`) - UI elements
-- **old-rose** (`#BE6F76`) - Types & properties
-- **coral-pink** (`#FA7E75`) - Numbers & accents
-- **amaranth** (`#D2495B`) - Errors
-- **dark-purple** (`#4A2036`) - Subtle backgrounds
+## Palette
 
-## Installation
+| Role | Hex | From the art |
+|------|-----|----------------|
+| Background | `#12101c` | Pagoda / pine silhouettes |
+| Foreground | `#f0c4a8` | Warm parchment, water light |
+| Accent | `#e15a48` | Torii and maple vermillion |
+| Gold | `#f0b45a` | Sun disk |
+| Moss | `#7e9a6a` | Pine |
+| Lake | `#4a9bb0` | Water and morning mist |
+| Haze | `#5b7fa8` | Distant mountains |
 
-### Visual Studio Code
+The shared palette is `colors.toml`. Quattro generates terminals,
+Hyprland Lua, Neovim, VS Code, Helix, btop, and Chromium from it.
+The same colors are also written into the older theme files so
+pre-Quattro desktops stay in sync.
 
-1. Copy the extension to your VSCode extensions folder:
-    ```bash
-    # Linux/macOS
-    cp -r vscode-extension ~/.vscode/extensions/akane-theme
-    ```
-2. Restart VSCode
-3. Press `Ctrl+K Ctrl+T` and select "Akane"
-
-### Zed Editor Support
-
-This theme includes support for Zed editor.
-
-**Prerequisites:** Ensure the Omarchy Akane theme is installed at `~/.config/omarchy/themes/akane/` first.
-
-1. After installing the Omarchy theme, run:
+## Install
 
 ```bash
-bash ~/.config/omarchy/themes/akane/scripts/zed.sh
+omarchy theme install https://github.com/Grenish/omarchy-akane-theme
+omarchy theme set akane
 ```
 
-2. Restart Zed Editor
-3. Press `Ctrl+K Ctrl+T` and select "Akane"
+Or copy this directory to `~/.config/omarchy/themes/akane` and run
+`omarchy theme set akane`.
 
-## Preview of the Theme
+Cycle wallpapers with `omarchy theme bg next`.
 
-### 1: Main
+## Preview
 
-Akane theme offers 4 backgrounds.
+![Preview](./preview.png)
 
-![Preview 3](./preview-3.jpg)
+Lock screen:
 
-### 2: Others
-
-![Preview 1](./preview-1.png)
-![Preview 2](./preview-2.png)
-
-### 3: VS Code
-
-![Preview 3](./preview-3.png)
-
-### 4: Zed Editor
-
-![Preview 4](./preview-4.png)
-
-## Color Consistency
-
-All configurations now use the same standardized color palette. See `COLOR_REFERENCE.md` for detailed color mappings across all applications.
-
-The theme works consistently across:
-
-- ✅ Neovim/LazyVim
-- ✅ Ghostty Terminal
-- ✅ Kitty Terminal
-- ✅ Alacritty Terminal
-- ✅ Visual Studio Code
-- ✅ Zed Editor
-
-## Documentation
-
-- **COLOR_REFERENCE.md** - Complete color palette documentation
-- **test-colors.sh** - Terminal color verification script
-
-## Thanks
-
-If you like the theme, consider starring the repo or help in fixing the bug... :)
+![Unlock](./preview-unlock.png)

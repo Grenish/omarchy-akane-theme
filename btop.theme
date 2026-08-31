@@ -1,81 +1,93 @@
-# Theme: Akane
-# By: Grenish Rai
-
-# Main bg
-theme[main_bg]="#0e1e36"   # oxford-blue
+# Main background, empty for terminal default, need to be empty if you want transparent background
+theme[main_bg]="#12101c"
 
 # Main text color
-theme[main_fg]="#f4b999"   # peach
+theme[main_fg]="#f0c4a8"
 
 # Title color for boxes
-theme[title]="#f4b999"     # peach
+theme[title]="#f0c4a8"
 
 # Highlight color for keyboard shortcuts
-theme[hi_fg]="#fa7e75"     # coral-pink
+theme[hi_fg]="#e15a48"
 
 # Background color of selected item in processes box
-theme[selected_bg]="#574f72"  # english-violet
+theme[selected_bg]="#2c2438"
 
 # Foreground color of selected item in processes box
-theme[selected_fg]="#f4b999"  # peach
+theme[selected_fg]="#e15a48"
 
 # Color of inactive/disabled text
-theme[inactive_fg]="#763c5d"  # quinacridone-magenta
+theme[inactive_fg]="#6d5a68"
+
+# Color of text appearing on top of graphs, i.e uptime and current network graph scaling
+theme[graph_text]="#f3d0b8"
+
+# Background color of the percentage meters
+theme[meter_bg]="#2c2438"
 
 # Misc colors for processes box including mini cpu graphs, details memory graph and details status text
-theme[proc_misc]="#c85670"    # blush
+theme[proc_misc]="#f3d0b8"
 
-# Cpu box outline color
-theme[cpu_box]="#574f72"      # english-violet
-
-# Memory/disks box outline color
-theme[mem_box]="#574f72"      # english-violet
-
-# Net up/down box outline color
-theme[net_box]="#574f72"      # english-violet
-
-# Processes box outline color
-theme[proc_box]="#574f72"     # english-violet
+# CPU, Memory, Network, Proc box outline colors
+theme[cpu_box]="#c45c78"
+theme[mem_box]="#7e9a6a"
+theme[net_box]="#d6453d"
+theme[proc_box]="#e15a48"
 
 # Box divider line and small boxes line color
-theme[div_line]="#4a2036"     # dark-purple
+theme[div_line]="#6d5a68"
 
-# Temperature graph colors
-theme[temp_start]="#9279aa"   # african-violet (cool)
-theme[temp_mid]="#f4b999"     # peach (warm)
-theme[temp_end]="#fa7e75"     # coral-pink (hot)
+# Temperature graph color (Green -> Yellow -> Red)
+theme[temp_start]="#7e9a6a"
+theme[temp_mid]="#f0b45a"
+theme[temp_end]="#d6453d"
 
-# CPU graph colors
-theme[cpu_start]="#9279aa"
-theme[cpu_mid]="#f4b999"
-theme[cpu_end]="#fa7e75"
+# CPU graph colors (Teal -> Blue -> Magenta)
+theme[cpu_start]="#4a9bb0"
+theme[cpu_mid]="#5b7fa8"
+theme[cpu_end]="#c45c78"
 
 # Mem/Disk free meter
-theme[free_start]="#9279aa"
-theme[free_mid]="#f4b999"
-theme[free_end]="#fa7e75"
+theme[free_start]="#c45c78"
+theme[free_mid]="#5b7fa8"
+theme[free_end]="#4a9bb0"
 
 # Mem/Disk cached meter
-theme[cached_start]="#9279aa"
-theme[cached_mid]="#f4b999"
-theme[cached_end]="#fa7e75"
+theme[cached_start]="#5b7fa8"
+theme[cached_mid]="#4a9bb0"
+theme[cached_end]="#c45c78"
 
 # Mem/Disk available meter
-theme[available_start]="#9279aa"
-theme[available_mid]="#f4b999"
-theme[available_end]="#fa7e75"
+theme[available_start]="#f0b45a"
+theme[available_mid]="#d6453d"
+theme[available_end]="#d6453d"
 
-# Mem/Disk used meter
-theme[used_start]="#9279aa"
-theme[used_mid]="#f4b999"
-theme[used_end]="#fa7e75"
+# Mem/Disk used meter (Green -> Teal -> Blue)
+theme[used_start]="#7e9a6a"
+theme[used_mid]="#4a9bb0"
+theme[used_end]="#5b7fa8"
 
 # Download graph colors
-theme[download_start]="#9279aa"
-theme[download_mid]="#f4b999"
-theme[download_end]="#fa7e75"
+theme[download_start]="#f0b45a"
+theme[download_mid]="#d6453d"
+theme[download_end]="#d6453d"
 
-# Upload graph colors
-theme[upload_start]="#9279aa"
-theme[upload_mid]="#f4b999"
-theme[upload_end]="#fa7e75"
+# Upload graph colors (Green -> Teal -> Blue)
+theme[upload_start]="#7e9a6a"
+theme[upload_mid]="#4a9bb0"
+theme[upload_end]="#5b7fa8"
+
+# Process box color gradient for threads, mem and cpu usage
+theme[process_start]="#4a9bb0"
+theme[process_mid]="#5b7fa8"
+theme[process_end]="#c45c78"
+
+# Graph gradient colors (spectrum shades from background to foreground)
+theme[gradient_color_0]="#12101c"
+theme[gradient_color_1]="#221c2c"
+theme[gradient_color_2]="#2c2438"
+theme[gradient_color_3]="#6d5a68"
+theme[gradient_color_4]="#8a6e6c"
+theme[gradient_color_5]="#f0c4a8"
+theme[gradient_color_6]="#f3d0b8"
+theme[gradient_color_7]="#f7e0cc"

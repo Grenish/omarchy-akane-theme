@@ -1,0 +1,39 @@
+# Akane (茜) — madder red. Palette sampled from the bundled wallpapers:
+# vermillion torii and maple, sunset gold, pine moss, lake teal, dusk navy.
+
+mode = "dark"
+
+accent = "#e15a48"
+selection = "#2c2438"
+muted = "#6d5a68"
+
+background = "#12101c"
+dark_background = "#0c0a14"
+darker_background = "#08070e"
+lighter_background = "#221c2c"
+
+foreground = "#f0c4a8"
+dark_foreground = "#8a6e6c"
+light_foreground = "#f3d0b8"
+bright_foreground = "#f7e0cc"
+
+red = "#d6453d"
+yellow = "#f0b45a"
+orange = "#e87a42"
+green = "#7e9a6a"
+cyan = "#4a9bb0"
+blue = "#5b7fa8"
+magenta = "#c45c78"
+brown = "#6b3a2a"
+
+bright_red = "#f06a58"
+bright_yellow = "#f6cc7a"
+bright_green = "#9ab57e"
+bright_cyan = "#7ec4d2"
+bright_blue = "#7a9cc4"
+bright_magenta = "#e07a94"
+
+hyprland_active_border = "rgba(e15a48ee) rgba(f0b45aee) 45deg"
+hyprland_inactive_border = "rgba(2c2438aa)"
+active_border_color = "#f0c4a8"
+active_tab_background = "#e15a48"

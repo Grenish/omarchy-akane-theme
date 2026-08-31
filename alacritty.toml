@@ -1,31 +1,47 @@
-# Name: Akane
-
-[colors]
 [colors.primary]
-background = '#0E1E36'  # oxford-blue
-foreground = '#F4B999'  # peach
+background = "#12101c"
+foreground = "#f0c4a8"
 
-# Normal colors
-[colors.normal]
-black = '#0E1E36'       # oxford-blue
-red = '#D2495B'         # amaranth
-green = '#BE6F76'       # old-rose
-yellow = '#F4B999'      # peach
-blue = '#574F72'        # english-violet
-magenta = '#763C5D'     # quinacridone-magenta
-cyan = '#9279AA'        # african-violet
-white = '#FA7E75'       # coral-pink
+[colors.cursor]
+text = "#12101c"
+cursor = "#f7e0cc"
 
-# Bright colors
-[colors.bright]
-black = '#4A2036'       # dark-purple
-red = '#FA7E75'         # coral-pink
-green = '#C85670'       # blush
-yellow = '#F4B999'      # peach
-blue = '#9279AA'        # african-violet
-magenta = '#BE6F76'     # old-rose
-cyan = '#C85670'        # blush
-white = '#F4B999'       # peach
+[colors.vi_mode_cursor]
+text = "#12101c"
+cursor = "#f7e0cc"
+
+[colors.search.matches]
+foreground = "#12101c"
+background = "#f0b45a"
+
+[colors.search.focused_match]
+foreground = "#12101c"
+background = "#d6453d"
+
+[colors.footer_bar]
+foreground = "#12101c"
+background = "#f0c4a8"
 
 [colors.selection]
-background = '#9279AA'  # african-violet
+text = "#f7e0cc"
+background = "#2c2438"
+
+[colors.normal]
+black = "#12101c"
+red = "#d6453d"
+green = "#7e9a6a"
+yellow = "#f0b45a"
+blue = "#5b7fa8"
+magenta = "#c45c78"
+cyan = "#4a9bb0"
+white = "#f0c4a8"
+
+[colors.bright]
+black = "#6d5a68"
+red = "#f06a58"
+green = "#9ab57e"
+yellow = "#f6cc7a"
+blue = "#7a9cc4"
+magenta = "#e07a94"
+cyan = "#7ec4d2"
+white = "#f7e0cc"
